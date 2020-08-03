@@ -1,0 +1,49 @@
+.darkBG{
+    background:#999;
+}
+
+
+.darkerBG{
+    background:#666;
+}
+
+.darkestBG {
+    background: #333;
+}
+
+
+.image-cropper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
+
+.intro {
+    margin-top:5%;
+    width: 60%;
+}
+
+.introa {
+    margin-top:5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.social {
+    margin-top:10%;
+    margin-left:15%;
+}
+
+.social a{
+    color:black;
+    margin:3%
+}
