@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Oinam R. Meitei</title>
-    <link href="publication.css" rel="stylesheet" type="text/css"/>
+    <link href="code.css" rel="stylesheet" type="text/css"/>
 
     <link rel="stylesheet"
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -19,6 +19,7 @@
     
     <div class="container">
       
+      
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<a class="navbar-brand" href="index.html">Oinam Romesh Meitei</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +32,6 @@
 	    <li class="nav-item active">
               <a class="nav-link" href="code.html">Codes <span class="sr-only">(current)</span></a>
 	    </li>
-	    
 	    <li class="nav-item active">
               <a class="nav-link" href="research.html">Research <span class="sr-only">(current)</span></a>
 	    </li>
@@ -40,17 +40,67 @@
               <a class="nav-link" href="publication.html">Publications <span class="sr-only">(current)</span></a>
 	    </li>
 	    
-	    
 	    <li class="nav-item active">
               <a class="nav-link" href="cv.html">CV <span class="sr-only">(current)</span></a>
 	    </li>
 	    
 	</div>
-      </nav>
-      
-      <h1 style="margin-top:5%;margin-left:5%;margin-bottom:5%;font-size:50px;
-		 font-family:Helvetica"><b>Under construction</b></h1>
+      </nav>	
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>   
            
+      
+	    <h1 style="margin-top:5%;margin-left:5%;margin-bottom:5%;font-size:50px;
+		       font-family:Helvetica"><b>Codes</b></h1>
+
+
+
+	    <div class = "code-style">
+
+	      <div class="code-des">
+	      Here are some of the codes that I wrote, click on the github mark
+	      to get to the repo.</div>
+
+	      
+	      <b style="font-size:30px; font-family:Helvetica">Fragpy</b>
+	      <a href="https://github.com/oimeitei/fragpy"><i class="fa fa-github" style="font-size:36px"></i></a>
+
+	      <div class = "code-des">
+		<p align="justify">
+		  Fragpy is a tool to optimize geometries of large molecules
+		  using Incremental Molecular Fragmentation method of OR
+		  Meitei & A Hesselmann, J. Theor. Comput. Chem., 17(05),
+		  185007. Fragpy works with other quantum chemistry programs
+		  such as PSI4, Molpro, Gaussian. Written in Python, it can
+		  perform fragment calculations on several compute nodes with
+		  minimal interconnect between the nodes. Fragpy works with
+		  MP2 method (and HF method for the correction term) for the
+		  molecular fragmentation but it should be easy to adapt
+		  Fragpy for other methods as well. 
+		</p>
+	      </div>
+	    </div>
+
+	    <div class = "code-style">
+	      <b style="font-size:30px; font-family:Helvetica">Molepy</b>
+	      <a href="https://github.com/oimeitei/molepy"><i class="fa fa-github" style="font-size:36px"></i></a>
+
+	      <div class = "code-des">
+	      <p align="justify">Molepy is a python based ab initio quantum chemistry
+		program. Currently, the program is in an experimental state and
+		so, it can perform calculations only with Restricted
+		Hartree-Fock method using limited basis sets (cc-pVDZ,cc-pVTZ,
+		def2-TZVP, etc.). The performance is not as efficient as other
+		quantum chemistry programs but will be improved over time
+		(hopefully). The integral computation is not fully optimized
+		yet but works with high angular momemtum.
+		The main advantage is that it is a python based
+		program and so it is very easy to understand or modify it. Most
+		of the computationally demanding modules are written in C++ but
+		a python counterpart can be found for most of it. 
+	      </p>
+	      </div>
+	    </div>
     </div>
   </body>
 </html>

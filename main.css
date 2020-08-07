@@ -1,49 +1,63 @@
-.darkBG{
-    background:#999;
-}
-
-
-.darkerBG{
-    background:#666;
-}
-
-.darkestBG {
-    background: #333;
-}
-
 
 .image-cropper {
-    width: 250px;
-    height: 250px;
-    position: relative;
     overflow: hidden;
-    border-radius: 50%;
 }
 
 img {
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
+    width:80%;
+    border-radius: 50%;
 }
 
+
 .intro {
-    margin-top:5%;
-    width: 60%;
+    margin-top:10%;
+    float:left;
+    width:35%;
+    text-align:center;
+    
+}
+
+.image {
+    margin-bottom:10%;
+
 }
 
 .introa {
-    margin-top:5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top:11%;
+    float:left;
+    width:60%;
+    text-align:center;
+    
 }
 
 .social {
-    margin-top:10%;
-    margin-left:15%;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .social a{
     color:black;
     margin:3%
+}
+
+@media screen and (max-width: 800px) {
+  .intro {
+    width: 100%;
+  }
+
+  .image {
+      width: 70%;
+      text-align:center;
+      margin: 0 auto;
+  }
+  .social {
+      margin-top:5%;
+      text-align:center;
+  }
+  .small p{
+      text-align:center;
+  }
+  .introa {
+    width: 100%;
+  }
 }
